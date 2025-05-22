@@ -1,12 +1,66 @@
-# React + Vite
+# 🔐 Password Reset App - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend for the **Password Reset Flow** application, built using **React.js** and styled with **Bootstrap**. It connects with the backend API to support user registration, login, and password reset via email.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+➡️ [https://passwordresetappfrontend.netlify.app/](https://passwordresetappfrontend.netlify.app)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tech Stack
+
+- **React.js**
+- **React Router DOM**
+- **Bootstrap 5**
+- **Axios**
+- **Netlify** (Deployment)
+
+---
+
+## 📂 Project Structure
+
+src/
+├── components/
+│ ├── AppNavbar.jsx
+├── pages/
+│ ├── Register.jsx
+│ ├── Login.jsx
+│ ├── ForgotPassword.jsx
+│ ├── ResetPassword.jsx
+├── App.jsx
+├── index.js
+
+---
+
+## ⚙️ Setup Instructions
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/password-reset-app.git
+   cd password-reset-app/frontend
+2.Install dependencies:
+  npm install
+  
+3.Start the development server:
+  npm run dev
+
+  ✅ Features
+User Registration
+
+Secure Login
+
+Forgot Password Flow
+
+Email-based Reset Password Link
+
+Responsive UI with Bootstrap
+
+Error & Success Feedback Toasts
+
+🌐 Deployment
+Deployed on Netlify
+➡️ https://passwordresetappfrontend.netlify.app
+
+🧑‍💻 Author
+Made with 💙 by Swaminathan VK
