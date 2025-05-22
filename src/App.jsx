@@ -3,13 +3,13 @@ import Register from './pages/Register';
 import Login from './pages/Login';
 import ForgotPassword from './pages/ForgotPassword';
 import ResetPassword from './pages/Resetpassword';
-import Navbar from './Components/Navbar';
+import AppNavbar from './Components/Navbar';
 
 function App() {
   return (
     <>
     <BrowserRouter>
-    <Navbar/>
+    <AppNavbar/>
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/login" element={<Login />} />
